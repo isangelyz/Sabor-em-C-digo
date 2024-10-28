@@ -1,0 +1,32 @@
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: #da9d9a;
+    padding: 0 20% 0 20%;
+    font-family: "Nunito", sans-serif;
+}
+
+.cabeçalho_logo{
+    width: 11%;
+}
+
+.cabeçalho_navegacao{
+    display: flex;
+    align-items: center;
+    gap: 30%;
+    font-size: 110%;
+    justify-content: flex-end;
+}
+
+.cabeçalho_item{
+    color: white;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+.main_img{
+    width: 50%;
+    display: flex;
+    margin: auto;
+}

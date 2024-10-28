@@ -1,9 +1,14 @@
+:root{
+    --fonte-primaria: "Nunito", sans-serif;
+    --fonte-secundaria: "Playfair Display SC", serif;
+}
+
 .cabeçalho{
     display: flex;
     justify-content: space-between;
     background-color: #da9d9a;
     padding: 0 15% 0 15%;
-    font-family: "Nunito", sans-serif;
+    font-family: var(--fonte-primaria);
 }
 
 .cabeçalho_logo{
@@ -17,7 +22,8 @@
 
 .cabeçalho_nome{
     font-size: 150%;
-    font-family: "Playfair Display SC", serif;
+    font-weight: 600;
+    font-family: var(--fonte-secundaria);
     color: white;
 }
 
@@ -36,8 +42,43 @@
     font-size: 120%;
 }
 
-.main_img{
-    width: 50%;
+.introdução{
     display: flex;
-    margin: auto;
+    padding: 0 15% 0 15%;
+    align-items: center;
+}
+
+.introdução_section{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.introdução_titulo{
+    font-family: var(--fonte-secundaria);
+    color: #a3706e;
+    font-weight: 600;
+    font-size: 600%;
+    padding: 2%;
+}
+
+.introdução_parágrafo{
+    font-family: var(--fonte-primaria);
+    color: black;
+    font-size: 130%;
+}
+
+.introdução_botao{
+    font-family: var(--fonte-primaria);
+    color: rgb(255, 255, 255);
+    font-size: 130%;
+    font-weight: 600;
+    background-color: #855352;
+    width: 25%;
+    padding: 2%;
+    text-align: center;
+}
+
+.introdução_img{
+    width: 40%;
 }

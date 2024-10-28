@@ -2,12 +2,23 @@
     display: flex;
     justify-content: space-between;
     background-color: #da9d9a;
-    padding: 0 20% 0 20%;
+    padding: 0 15% 0 15%;
     font-family: "Nunito", sans-serif;
 }
 
 .cabeçalho_logo{
-    width: 11%;
+    width: 13%;
+}
+.cabeçalho_tema{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.cabeçalho_nome{
+    font-size: 150%;
+    font-family: "Playfair Display SC", serif;
+    color: white;
 }
 
 .cabeçalho_navegacao{
@@ -22,7 +33,7 @@
     color: white;
     text-transform: none;
     text-decoration: none;
-    font-size: 110%;
+    font-size: 120%;
 }
 
 .main_img{

@@ -197,6 +197,14 @@
     width: 7%;
 }
 
+.inicio_evento{
+    display: flex;
+    justify-content: center;
+}
+
+.foto_inicio{
+    width: 65%;
+}
 
 .rodape{
     display: flex;

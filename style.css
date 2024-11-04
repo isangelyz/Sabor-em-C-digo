@@ -89,6 +89,115 @@
     width: 40%;
 }
 
+.galeria{
+    background-color: #da9d9a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7%;
+    gap: 20px;
+}
+
+.galeria_titulo{
+    font-family: var(--fonte-secundaria);
+    color: white;
+    font-weight: 600;
+    font-size: 500%;
+    padding: 2%;
+}
+
+.galeria_paragrafo{
+    font-family: var(--fonte-primaria);
+    color: black;
+    font-size: 130%;
+    width: 70%;
+    text-align: center;
+}
+
+.galeria_fotos{
+    display: block;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 1%;
+}
+
+.galeria_item{
+    box-shadow: 5px 5px 15px #754847;
+}
+
+.galeria_item:hover{
+    transition-duration: 0.2s;
+    scale: 120%;
+}
+
+.depoimento{
+    background: linear-gradient(#da9d9a, #ffffff);
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5% 7% 15% 7%;
+    justify-content: space-between;
+}    
+
+.depoimento_texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.depoimento_titulo{
+    font-family: var(--fonte-secundaria);
+    font-size: 300%;
+    font-weight: 600;
+    color: #754847;
+    line-height: 120%;
+}
+
+.depoimento_titulo_strong{
+    font-size: 200%;
+    color: #ffffff;
+    text-shadow: 3px 3px 2px #e9b9b9;
+}
+
+.depoimento_paragrafo{
+    font-family: var(--fonte-primaria);
+    color: black;
+    font-size: 130%;
+    text-align: start;
+}
+
+.depoimento_feedbacks{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 50px;
+}
+
+.feedback_caixa{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    box-shadow: 0 0 15px black;
+    border-radius: 20px;
+    padding: 7%;
+}
+
+.feedback_texto{
+    font-family: var(--fonte-primaria);
+    color: black;
+    font-size: 130%;
+    text-align: start;
+}
+
+.aspas_texto{
+    width: 7%;
+}
+
+
 .rodape{
     display: flex;
     background-color: #a3706e;

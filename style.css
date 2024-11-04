@@ -197,13 +197,84 @@
     width: 7%;
 }
 
-.inicio_evento{
+.evento_explicacao{
+    padding: 10% 10% 0 10%;
+    display: flex;
+}
+
+.explicacacao_texto{
+    width: 80%;
+}
+
+.explicacacao_paragrafo{
+    font-family: var(--fonte-primaria);
+    color: black;
+    font-size: 190%;
+    text-align: start;
+    font-weight: 600;
+}
+
+.explicacacao_titulo{
+    font-family: var(--fonte-secundaria);
+    color: #a3706e;
+    font-weight: 700;
+    font-size: 400%;
+    padding: 2%;
+    width: 110%;
+}
+
+.explicacao_imagem{
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.explicao_cookie{
+    width: 150%;
+}
+
+.explicacao_cookie:hover{
+    scale: 120%;
+    transition-duration: 0.2s;
+}
+
+.explicação_dissertação{
+    width: 80%;
+}
+
+.explicacacao_dissertação{
+    font-family: var(--fonte-primaria);
+    color: black;
+    font-size: 130%;
+    text-align: end;
+}
+
+.strong_explicacao{
+    color: #754847;
+    font-weight: 700;
+}
+
+.inicio_evento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#ffffff, #e9b9b9);
+    padding: 10%;
+}
+
+.inicio_botao{
+    color: white;
+    background-color: #855352;
+    padding: 2% 8% 2% 8%;
+    font-size: 140%;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    box-shadow: 0 0 15px #754847;
 }
 
 .foto_inicio{
-    width: 65%;
+    width: 80%;
 }
 
 .rodape{

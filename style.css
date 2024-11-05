@@ -198,7 +198,7 @@
 }
 
 .evento_explicacao{
-    padding: 10% 10% 0 10%;
+    padding: 10% 10% 10% 10%;
     display: flex;
 }
 
@@ -254,32 +254,9 @@
     font-weight: 700;
 }
 
-.inicio_evento{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(#ffffff, #e9b9b9);
-    padding: 10%;
-}
-
-.inicio_botao{
-    color: white;
-    background-color: #855352;
-    padding: 2% 8% 2% 8%;
-    font-size: 140%;
-    font-family: var(--fonte-primaria);
-    font-weight: 700;
-    box-shadow: 0 0 15px #754847;
-}
-
-.foto_inicio{
-    width: 80%;
-}
-
 .expectativa{
-    background-color: #e9b9b9;
-    padding:0 3% 10% 3%;
+    background: linear-gradient(#a3706e, #da9d9a);
+    padding: 10% 3% 0 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -287,9 +264,10 @@
 
 .expectativa_titulo{
     font-family: var(--fonte-secundaria);
-    color: #754847;
+    color: white;
     font-weight: 700;
     font-size: 500%;
+    text-shadow: 1px 1px 15px black;
 }
 
 .expectativa_itens{
@@ -311,16 +289,77 @@
     box-shadow: 0 0 15px black;
     border-radius: 20px;
     padding: 5%;
-
+    filter: none;
 }
+
 .itens_texto:hover{
-    scale: 140%;
-    transition: 0.2s;
+    scale: 120%;
+    transition-duration: 0.2s;
 }
 
 .item_titulo{
     font-size: 150%;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+.inicio_evento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#da9d9a, #e9b9b9);
+    padding: 9%;
+}
+
+.inicio_botao{
+    color: white;
+    background-color: #855352;
+    padding: 2% 8% 2% 8%;
+    font-size: 140%;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    box-shadow: 0 0 15px #754847;
+}
+
+.foto_inicio{
+    width: 80%;
+}
+
+.jovens{
+    display: flex;
+    padding: 7%;
+    justify-content: space-between;
+}
+
+.jovens_texto{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-family: var(--fonte-primaria);
+    color: black;
+    font-size: 130%;
+    gap: 30px;
+}
+
+.jovens_titulo{
+    width: 50%;
+    text-align: end;
+    font-family: var(--fonte-secundaria);
+    font-size: 500%;
+    font-weight: 600;
+    color: #855352
+}
+
+.texto_botao{
+    width: 60%;
+    font-family: var(--fonte-primaria);
+    color: white;
+    font-size: 110%;
+    background-color: black;
+    padding: 2%;
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
 }
 
 .rodape{

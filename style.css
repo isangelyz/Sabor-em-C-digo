@@ -362,6 +362,137 @@
     text-decoration: none;
 }
 
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.menu_anuncio{
+    font-family: var(--fonte-secundaria);
+    color: white;
+    font-weight: 600;
+    font-size: 600%;
+    padding: 2%;
+    background-color: #a3706e;
+    padding-top: 4%;
+    text-align: center;
+    text-shadow: 1px 1px 10px #754847;
+}
+
+.item_menu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgba(240, 248, 255, 0.8);
+    padding: 3%;
+}
+
+.item_menu:hover{
+    background-color: white;
+    scale: 102%;
+    transition-duration: 0.2s;
+    box-shadow: 1px 1px 15px black;
+}
+
+.item_menu:hover .menu_valor{
+    color: red;
+}
+
+.menu_cookies, .menu_mochi, .menu_sorvete{
+    display: flex;
+    justify-content: space-between;
+    background-color: #a3706e;
+    padding: 5% 15% 5% 15%;
+    gap: 10%;
+}
+
+.menu_sorvete{
+    background-color: #da9d9a;
+}
+
+.menu_imagem{
+    width: 220px;
+    height: 220px;
+    background-size: 100%;
+}
+
+.menu_titulo{
+    font-family: var(--fonte-primaria);
+    font-size: 150%;
+    font-weight: 600;
+    padding-top: 3%;
+}
+
+.titulo_strong{
+    font-weight: 700;
+}
+
+.menu_valor{
+    font-family: var(--fonte-primaria);
+    font-size: 120%;
+    font-weight: 600;
+    padding-top: 3%;
+}
+
+.menu_compra{
+    font-family: var(--fonte-primaria);
+    font-size: 120%;
+    font-weight: 600;
+    background-color: #a3706e;
+    color: white;
+    padding: 4%;
+    width: 50%;
+    text-align: center;
+}
+
+.menu_imagem_cookie1{
+    background-image: url(imgs/Captura\ de\ tela\ de\ 2024-10-28\ 22-05-10.png);
+}
+
+.menu_imagem_cookie2{
+    background-image: url(imgs/Captura\ de\ tela\ de\ 2024-10-28\ 22-05-59.png);
+}
+
+.menu_imagem_cookie3{
+    background-image: url(imgs/cookie2.png);
+}
+
+.menu_imagem_sorvete1{
+    background-image: url(imgs/sorteve1.jpeg);
+}
+
+.menu_imagem_sorvete2{
+    background-image: url(imgs/sorvete2.jpeg);
+    background-size: 170%;
+    background-position: center;
+}
+
+.menu_imagem_sorvete3{
+    background-image: url(imgs/sorvete3.jpeg);
+    background-size: 170%;
+    background-position: center;
+}
+
+.menu_imagem_mochi1{
+    background-image: url(imgs/doce1.jpeg);
+    background-size: 160%;
+    background-position: center;
+}
+
+.menu_imagem_mochi2{
+    background-image: url(imgs/doce2.jpeg);
+    background-size: 140%;
+    background-position: center;
+}
+
+.menu_imagem_mochi3{
+    background-image: url(imgs/doce3.jpeg);
+    background-size: 170%;
+    background-position: center;
+}
+
+
 .rodape{
     display: flex;
     background-color: #a3706e;

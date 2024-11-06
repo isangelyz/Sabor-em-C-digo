@@ -42,6 +42,10 @@
     font-size: 120%;
 }
 
+.cabeçalho_item:hover{
+    text-shadow: 2px 2px 20px white;
+}
+
 .introdução{
     display: flex;
     padding: 0 15% 0 15%;
@@ -83,6 +87,15 @@
     width: 25%;
     padding: 2%;
     text-align: center;
+    text-decoration: none;
+}
+
+.introdução_botao:hover{
+    scale: 103%;
+    background-color: #a3706e;
+    box-shadow: 1px 1px 10px #da9d9a;
+    border-radius: 15%;
+    transition-duration: 0.2s;
 }
 
 .introdução_img{
@@ -129,6 +142,7 @@
 .galeria_item:hover{
     transition-duration: 0.2s;
     scale: 120%;
+    box-shadow: 5px 5px 15px black;
 }
 
 .depoimento{
@@ -321,6 +335,15 @@
     box-shadow: 0 0 15px #754847;
 }
 
+.inicio_botao:hover{
+    scale: 103%;
+    background-color: white;
+    box-shadow: 1px 1px 10px #ffffff;
+    border-radius: 25%;
+    transition-duration: 0.2s;
+    color: #754847;
+}
+
 .foto_inicio{
     width: 80%;
 }
@@ -353,13 +376,23 @@
 .texto_botao{
     width: 60%;
     font-family: var(--fonte-primaria);
-    color: white;
+    color: black;
     font-size: 110%;
-    background-color: black;
+    background-color: white;
     padding: 2%;
     width: 30%;
     text-align: center;
     text-decoration: none;
+    border: 2px solid black;
+}
+
+.texto_botao:hover{
+    scale: 103%;
+    background-color: black;
+    text-shadow: 1px 1px 10px white;
+    box-shadow: 1px 1px 10px #ffffff;
+    transition-duration: 0.1s;
+    color: white;
 }
 
 .menu{
@@ -446,6 +479,11 @@
     text-align: center;
 }
 
+.menu_compra:hover{
+    background-color: #da9d9a;
+    transition-duration: 0.2s;
+}
+
 .menu_imagem_cookie1{
     background-image: url(imgs/Captura\ de\ tela\ de\ 2024-10-28\ 22-05-10.png);
 }
@@ -510,7 +548,7 @@
 
 .footer_titulo{
     font-family: var(--fonte-secundaria);
-    font-size: 200%;
+    font-size: 250%;
     font-weight: 600;
 }
 
@@ -528,4 +566,13 @@
     padding: 2%;
     width: 20%;
     text-align: center;
+}
+
+.footer_botao:hover{
+    scale: 103%;
+    background-color: #e9b9b9;
+    text-shadow: 1px 1px 10px white;
+    box-shadow: 1px 1px 10px #ffffff;
+    transition-duration: 0.1s;
+    color: white;
 }
